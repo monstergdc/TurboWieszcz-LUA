@@ -15,6 +15,11 @@ note: there are also ZX Spectrum (ASM Z80) and Android (Java) versions
 
 ---
 
+Try running it directly in the browser:
+https://www.tutorialspoint.com/execute_lua_online.php
+
+---
+
 * created: 2022-05-01
 
 
