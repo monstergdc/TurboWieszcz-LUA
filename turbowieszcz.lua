@@ -1,4 +1,4 @@
-
+ï»¿
 -- Turbo Wieszcz ++ LUA version, v1.0
 -- (c)2022 Noniewicz.com, Jakub Noniewicz
 
@@ -15,7 +15,7 @@
 -- https://www.tutorialspoint.com/execute_lua_online.php
 
 -- created: 20220501 (initial release took: 2.5h)
--- updated: -
+-- updated: 20220503
 
 
 ENDINGS1 = {'.', '...', '.', '!', '.'}
@@ -23,39 +23,39 @@ ENDINGS2 = {'', '...', '', '!', ''}
 TRYB2ORDER = {{0,1,2,3}, {0,1,3,2}, {0,2,1,3}} -- ABAB, ABBA, AABB
 
 titles = {
-        'Zag³ada',
-        'To ju¿ koniec',
-        'Œwiat ginie',
-        'Z wizyt¹ w piekle',
+        'ZagÅ‚ada',
+        'To juÅ¼ koniec',
+        'Åšwiat ginie',
+        'Z wizytÄ… w piekle',
         'Kataklizm',
-        'Dzieñ z ¿ycia...',
+        'DzieÅ„ z Å¼ycia...',
         'Masakra',
         'Katastrofa',
         'Wszyscy zginiemy...',
-        'Pokój?',
+        'PokÃ³j?',
         'Koniec',
-        'Koniec ludzkoœci',
+        'Koniec ludzkoÅ›ci',
         'Telefon do Boga',
-        'Wieczne ciemnoœci',
+        'Wieczne ciemnoÅ›ci',
         'Mrok',
-        'Mrok w œrodku dnia',
-        'Ciemnoœæ',
-        'Piorunem w ³eb',
+        'Mrok w Å›rodku dnia',
+        'CiemnoÅ›Ä‡',
+        'Piorunem w Å‚eb',
         'Marsz troli',
-        'Szyderstwa Z³ego',
-        'Okrponoœci œwiata',
-        'Umrzeæ po raz ostatni',
-        'Potêpienie',
-        'Ból mózgu',
+        'Szyderstwa ZÅ‚ego',
+        'OkrponoÅ›ci Å›wiata',
+        'UmrzeÄ‡ po raz ostatni',
+        'PotÄ™pienie',
+        'BÃ³l mÃ³zgu',
         'Wieczne wymioty',
         'Zatrute dusze',
         'Uciekaj',
         'Apokalipsa',
-        'Z³udzenie pryska',
+        'ZÅ‚udzenie pryska',
         'Makabra',
-        'Zag³ada œwiata',
-        'Œmieræ',
-        'Spokój'
+        'ZagÅ‚ada Å›wiata',
+        'ÅšmierÄ‡',
+        'SpokÃ³j'
 }
 
 data = {}
@@ -68,140 +68,140 @@ end
 
 -- ///////////////////////////////////////////////
 -- //po 10
-    data[0][0]  = 'Czy na te zbrodnie nie bêdzie kary?'
-    data[0][1]  = 'Opustosza³y bagna, moczary'
-    data[0][2]  = 'Na nic siê mod³y zdadz¹ ni czary'
-    data[0][3]  = 'Z krwi mordowanych s¹cz¹ puchary'
-    data[0][4]  = 'To nietoperze, wê¿e, kalmary'
-    data[0][5]  = 'Pró¿no nieszczêœni sypi¹ talary'
-    data[0][6]  = 'Za co nam znosiæ takie ciê¿ary'
-    data[0][7]  = 'Z³owrogo iskrz¹ kóbr okulary'
-    data[0][8]  = 'Pró¿no swe mod³y wznosi wikary'
-    data[0][9]  = 'Pustosz¹ sny twoje z³e nocne mary'
-    data[0][10] = 'Pró¿no nieszczêœnik sypie talary'
-    data[0][11] = 'Przedziwnie tka siê ¿ycia logarytm'
-    data[0][12] = 'Ju¿ Strach wypuœci³ swoje ogary'
+    data[0][0]  = 'Czy na te zbrodnie nie bÄ™dzie kary?'
+    data[0][1]  = 'OpustoszaÅ‚y bagna, moczary'
+    data[0][2]  = 'Na nic siÄ™ modÅ‚y zdadzÄ… ni czary'
+    data[0][3]  = 'Z krwi mordowanych sÄ…czÄ… puchary'
+    data[0][4]  = 'To nietoperze, wÄ™Å¼e, kalmary'
+    data[0][5]  = 'PrÃ³Å¼no nieszczÄ™Å›ni sypiÄ… talary'
+    data[0][6]  = 'Za co nam znosiÄ‡ takie ciÄ™Å¼ary'
+    data[0][7]  = 'ZÅ‚owrogo iskrzÄ… kÃ³br okulary'
+    data[0][8]  = 'PrÃ³Å¼no swe modÅ‚y wznosi wikary'
+    data[0][9]  = 'PustoszÄ… sny twoje zÅ‚e nocne mary'
+    data[0][10] = 'PrÃ³Å¼no nieszczÄ™Å›nik sypie talary'
+    data[0][11] = 'Przedziwnie tka siÄ™ Å¼ycia logarytm'
+    data[0][12] = 'JuÅ¼ Strach wypuÅ›ciÅ‚ swoje ogary'
     data[0][13] = 'Niebawem zginiesz w szponach poczwary'
-    data[0][14] = 'Wbijaj¹ pale z³ote kafary'
-    data[0][15] = '¯ycie odkrywa swoje przywary'
+    data[0][14] = 'WbijajÄ… pale zÅ‚ote kafary'
+    data[0][15] = 'Å»ycie odkrywa swoje przywary'
     data[0][16] = 'Na dnie ponurej, pustej pieczary'
-    data[0][17] = 'Apokalipsy nadesz³y czary'
-    data[0][18] = 'Upad³y anio³ wspomina chwa³ê'
-    data[0][19] = '¯ycie ukrywa swoje przywary'
-    data[0][20] = 'Dziwnych owadów wzlatuj¹ chmary'
-    data[0][21] = 'Bombowce bior¹ nasze namiary'
-    data[0][22] = 'Nie da siê chwyciæ z czartem za bary'
-    data[0][23] = 'Pró¿no frajerzy sypi¹ talary'
-    data[0][24] = 'Nie da sie wyrwaæ czartom towaru'
-    data[0][25] = 'Po co nam s¹czyæ pod³e browary'
-    data[0][26] = 'Diler ju¿ nie dostarczy towaru'
-    data[0][27] = 'Lokomotywa nie ma ju¿ pary'
-    data[0][28] = 'Gdy nie ka¿dego staæ na browary'
-    data[0][29] = 'Po¿ar³ Hilary swe okulary'
-    data[0][30] = 'Spowi³y nas truj¹ce opary'
+    data[0][17] = 'Apokalipsy nadeszÅ‚y czary'
+    data[0][18] = 'UpadÅ‚y anioÅ‚ wspomina chwaÅ‚Ä™'
+    data[0][19] = 'Å»ycie ukrywa swoje przywary'
+    data[0][20] = 'Dziwnych owadÃ³w wzlatujÄ… chmary'
+    data[0][21] = 'Bombowce biorÄ… nasze namiary'
+    data[0][22] = 'Nie da siÄ™ chwyciÄ‡ z czartem za bary'
+    data[0][23] = 'PrÃ³Å¼no frajerzy sypiÄ… talary'
+    data[0][24] = 'Nie da sie wyrwaÄ‡ czartom towaru'
+    data[0][25] = 'Po co nam sÄ…czyÄ‡ podÅ‚e browary'
+    data[0][26] = 'Diler juÅ¼ nie dostarczy towaru'
+    data[0][27] = 'Lokomotywa nie ma juÅ¼ pary'
+    data[0][28] = 'Gdy nie kaÅ¼dego staÄ‡ na browary'
+    data[0][29] = 'PoÅ¼arÅ‚ Hilary swe okulary'
+    data[0][30] = 'SpowiÅ‚y nas trujÄ…ce opary'
     data[0][31] = 'To nie jest calka ani logarytm'
 -- ///////////////////////////////////////////////
 -- //po 8
-    data[1][0]  = 'Ju¿ na arenê krew tryska'
-    data[1][1]  = 'Ju¿ piana cieknie im z pyska'
-    data[1][2]  = 'Ju¿ hen w oddali gdzieœ b³yska'
-    data[1][3]  = 'Œmieræ w k¹cie czai siê bliska'
-    data[1][4]  = 'Niesamowite duchów igrzyska'
-    data[1][5]  = 'Ju¿ zaciskaj¹c ³apiska'
-    data[1][6]  = 'Zamiast pozostaæ w zamczyskach'
-    data[1][7]  = 'Rzeka wylewa z ³o¿yska'
-    data[1][8]  = 'Nieszczêœæ wyla³a siê miska'
-    data[1][9]  = 'Ju¿ zaciskaj¹c zêbiska'
-    data[1][10] = 'Otwarta nieszczêœæ walizka'
+    data[1][0]  = 'JuÅ¼ na arenÄ™ krew tryska'
+    data[1][1]  = 'JuÅ¼ piana cieknie im z pyska'
+    data[1][2]  = 'JuÅ¼ hen w oddali gdzieÅ› bÅ‚yska'
+    data[1][3]  = 'ÅšmierÄ‡ w kÄ…cie czai siÄ™ bliska'
+    data[1][4]  = 'Niesamowite duchÃ³w igrzyska'
+    data[1][5]  = 'JuÅ¼ zaciskajÄ…c Å‚apiska'
+    data[1][6]  = 'Zamiast pozostaÄ‡ w zamczyskach'
+    data[1][7]  = 'Rzeka wylewa z Å‚oÅ¼yska'
+    data[1][8]  = 'NieszczÄ™Å›Ä‡ wylaÅ‚a siÄ™ miska'
+    data[1][9]  = 'JuÅ¼ zaciskajÄ…c zÄ™biska'
+    data[1][10] = 'Otwarta nieszczÄ™Å›Ä‡ walizka'
     data[1][11] = 'Niczym na rzymskich boiskach'
     data[1][12] = 'Czart wznieca swe paleniska'
-    data[1][13] = 'A w mroku œwiec¹ zêbiska'
-    data[1][14] = 'Zewsz¹d dochodz¹ wyzwiska'
-    data[1][15] = 'Œwiêtych g³ód wiary przyciska'
+    data[1][13] = 'A w mroku Å›wiecÄ… zÄ™biska'
+    data[1][14] = 'ZewszÄ…d dochodzÄ… wyzwiska'
+    data[1][15] = 'ÅšwiÄ™tych gÅ‚Ã³d wiary przyciska'
     data[1][16] = 'Ponuro patrzy z ich pyska'
-    data[1][17] = 'Mg³a stoi na uroczyskach'
-    data[1][18] = 'Koœci pogrzebi¹ urwiska'
-    data[1][19] = 'G³ód wiary tak nas przyciska'
-    data[1][20] = 'Runê³y skalne zwaliska'
+    data[1][17] = 'MgÅ‚a stoi na uroczyskach'
+    data[1][18] = 'KoÅ›ci pogrzebiÄ… urwiska'
+    data[1][19] = 'GÅ‚Ã³d wiary tak nas przyciska'
+    data[1][20] = 'RunÄ™Å‚y skalne zwaliska'
     data[1][21] = 'Czart rozpala paleniska'
-    data[1][22] = 'A w mroku s³ychaæ wyzwiska'
-    data[1][23] = 'Znów pusta ¿ebraka miska'
-    data[1][24] = 'Diabelskie to s¹ igrzyska'
-    data[1][25] = 'Nie powiedz diab³u nazwiska'
-    data[1][26] = 'Najg³oœniej s³ychaæ wyzwiska'
-    data[1][27] = 'Diabelskie maj¹ nazwiska'
-    data[1][28] = 'Tam uciekaj¹ ludziska'
+    data[1][22] = 'A w mroku sÅ‚ychaÄ‡ wyzwiska'
+    data[1][23] = 'ZnÃ³w pusta Å¼ebraka miska'
+    data[1][24] = 'Diabelskie to sÄ… igrzyska'
+    data[1][25] = 'Nie powiedz diabÅ‚u nazwiska'
+    data[1][26] = 'NajgÅ‚oÅ›niej sÅ‚ychaÄ‡ wyzwiska'
+    data[1][27] = 'Diabelskie majÄ… nazwiska'
+    data[1][28] = 'Tam uciekajÄ… ludziska'
     data[1][29] = 'Tak rzecze stara hipiska'
     data[1][30] = 'Gdzie dawne ludzi siedliska'
-    data[1][31] = 'Najg³oœniej piszczy hipiska'
+    data[1][31] = 'NajgÅ‚oÅ›niej piszczy hipiska'
 -- ///////////////////////////////////////////////
 -- //po 10
-    data[2][0]  = 'Rw¹ pazurami swoje ofiary'
-    data[2][1]  = 'Nic nie pomo¿e tu druid stary'
+    data[2][0]  = 'RwÄ… pazurami swoje ofiary'
+    data[2][1]  = 'Nic nie pomoÅ¼e tu druid stary'
     data[2][2]  = 'To nocne zjawy i senne mary'
-    data[2][3]  = 'NiegroŸne przy nich lwowskie batiary'
-    data[2][4]  = 'Pod wodz¹ ksiê¿nej diablic Tamary'
-    data[2][5]  = 'Z dala straszliwe tr¹bia fanfary'
-    data[2][6]  = 'Sk¹d ich przywiod³y piek³a bezmiary'
-    data[2][7]  = 'Zaœ dooko³a ³uny, po¿ary'
-    data[2][8]  = 'A twoje cia³o rozszarpie Wilk Szary'
-    data[2][9]  = 'Tu nie pomo¿e ju¿ si³a wiary'
-    data[2][10] = 'Tak cudzych nieszczêœæ pij¹ nektary'
-    data[2][11] = 'Wszystko zalewa wrz¹cy liparyt'
-    data[2][12] = 'Zabójcze s¹ ich niecne zamiary'
-    data[2][13] = 'Zatrute dusze ³¹cz¹ siê w pary'
-    data[2][14] = 'Œwiat pokazuje swoje wymiary'
-    data[2][15] = 'Z ¿yciem siê teraz weŸmiesz za bary'
-    data[2][16] = 'Brak uczuæ, chêci, czasem brak wiary'
-    data[2][17] = 'Wspomnij, co mówi³ Mickiewicz stary'
-    data[2][18] = 'Spalonych lasów strasz¹ hektary'
-    data[2][19] = 'Z ¿yciem siê dzisiaj weŸmiesz za bary'
-    data[2][20] = 'Ksi¹dz pozostaje nagle bez wiary'
-    data[2][21] = 'Papie¿ zaczyna odprawiaæ czary'
-    data[2][22] = 'Tu nie pomo¿e paciorek, stary'
-    data[2][23] = 'NiegroŸne przy nich nawet Atari'
-    data[2][24] = 'Takie s¹ oto piek³a bezmiary'
-    data[2][25] = 'A teraz nagle jesteœ ju¿ stary'
-    data[2][26] = 'Mordercy licz¹ swoje ofiary'
-    data[2][27] = 'I bez wartoœci s¹ ju¿ dolary'
-    data[2][28] = 'Gdzie siê podzia³y te nenufary'
-    data[2][29] = 'Upada oto d¹b ten prastary'
-    data[2][30] = 'Bystro œmigaj¹ nawet niezdary'
-    data[2][31] = 'Ju¿ nieruchome ich awatary'
+    data[2][3]  = 'NiegroÅºne przy nich lwowskie batiary'
+    data[2][4]  = 'Pod wodzÄ… ksiÄ™Å¼nej diablic Tamary'
+    data[2][5]  = 'Z dala straszliwe trÄ…bia fanfary'
+    data[2][6]  = 'SkÄ…d ich przywiodÅ‚y piekÅ‚a bezmiary'
+    data[2][7]  = 'ZaÅ› dookoÅ‚a Å‚uny, poÅ¼ary'
+    data[2][8]  = 'A twoje ciaÅ‚o rozszarpie Wilk Szary'
+    data[2][9]  = 'Tu nie pomoÅ¼e juÅ¼ siÅ‚a wiary'
+    data[2][10] = 'Tak cudzych nieszczÄ™Å›Ä‡ pijÄ… nektary'
+    data[2][11] = 'Wszystko zalewa wrzÄ…cy liparyt'
+    data[2][12] = 'ZabÃ³jcze sÄ… ich niecne zamiary'
+    data[2][13] = 'Zatrute dusze Å‚Ä…czÄ… siÄ™ w pary'
+    data[2][14] = 'Åšwiat pokazuje swoje wymiary'
+    data[2][15] = 'Z Å¼yciem siÄ™ teraz weÅºmiesz za bary'
+    data[2][16] = 'Brak uczuÄ‡, chÄ™ci, czasem brak wiary'
+    data[2][17] = 'Wspomnij, co mÃ³wiÅ‚ Mickiewicz stary'
+    data[2][18] = 'Spalonych lasÃ³w straszÄ… hektary'
+    data[2][19] = 'Z Å¼yciem siÄ™ dzisiaj weÅºmiesz za bary'
+    data[2][20] = 'KsiÄ…dz pozostaje nagle bez wiary'
+    data[2][21] = 'PapieÅ¼ zaczyna odprawiaÄ‡ czary'
+    data[2][22] = 'Tu nie pomoÅ¼e paciorek, stary'
+    data[2][23] = 'NiegroÅºne przy nich nawet Atari'
+    data[2][24] = 'Takie sÄ… oto piekÅ‚a bezmiary'
+    data[2][25] = 'A teraz nagle jesteÅ› juÅ¼ stary'
+    data[2][26] = 'Mordercy liczÄ… swoje ofiary'
+    data[2][27] = 'I bez wartoÅ›ci sÄ… juÅ¼ dolary'
+    data[2][28] = 'Gdzie siÄ™ podziaÅ‚y te nenufary'
+    data[2][29] = 'Upada oto dÄ…b ten prastary'
+    data[2][30] = 'Bystro Å›migajÄ… nawet niezdary'
+    data[2][31] = 'JuÅ¼ nieruchome ich awatary'
 -- ///////////////////////////////////////////////
 -- //po 8
-    data[3][0]  = 'Wnet na nas te¿ przyjdzie kryska'
-    data[3][1]  = 'Znik¹d ¿adnego schroniska'
-    data[3][2]  = 'Powietrze tnie œwist biczyska'
+    data[3][0]  = 'Wnet na nas teÅ¼ przyjdzie kryska'
+    data[3][1]  = 'ZnikÄ…d Å¼adnego schroniska'
+    data[3][2]  = 'Powietrze tnie Å›wist biczyska'
     data[3][3]  = 'Rodem z czarciego urwiska'
-    data[3][4]  = 'I sw¹d nieznoœny siê wciska'
+    data[3][4]  = 'I swÄ…d nieznoÅ›ny siÄ™ wciska'
     data[3][5]  = 'Huk, jak z wielkiego lotniska'
-    data[3][6]  = 'Z³owroga brzmi¹ ich nazwiska'
-    data[3][7]  = 'W k¹cie nieœmia³o ktoœ piska'
-    data[3][8]  = 'Ktoœ obok morduje liska'
-    data[3][9]  = 'Krwi¹ ociekaj¹ zêbiska'
-    data[3][10] = 'Woko³o dzikie piar¿yska'
-    data[3][11] = 'I ¿¹dza czai siê niska'
-    data[3][12] = 'Diabe³ ciê dzisiaj wyzyska'
-    data[3][13] = 'P³on¹ zag³ady ogniska'
-    data[3][14] = 'Gwa³t niech siê gwa³tem odciska!'
+    data[3][6]  = 'ZÅ‚owroga brzmiÄ… ich nazwiska'
+    data[3][7]  = 'W kÄ…cie nieÅ›miaÅ‚o ktoÅ› piska'
+    data[3][8]  = 'KtoÅ› obok morduje liska'
+    data[3][9]  = 'KrwiÄ… ociekajÄ… zÄ™biska'
+    data[3][10] = 'WokoÅ‚o dzikie piarÅ¼yska'
+    data[3][11] = 'I Å¼Ä…dza czai siÄ™ niska'
+    data[3][12] = 'DiabeÅ‚ ciÄ™ dzisiaj wyzyska'
+    data[3][13] = 'PÅ‚onÄ… zagÅ‚ady ogniska'
+    data[3][14] = 'GwaÅ‚t niech siÄ™ gwaÅ‚tem odciska!'
     data[3][15] = 'Stoisz na skraju urwiska'
     data[3][16] = 'Tam szatan czarta wyiska'
-    data[3][17] = 'Uciekaj, przysz³oœæ jest mglista'
-    data[3][18] = 'Nadziei z³udzenie pryska'
-    data[3][19] = 'Wydziobi¹ oczy ptaszyska'
-    data[3][20] = 'Padaj¹ ³by na klepisko'
-    data[3][21] = 'Œmieræ zbiera ¿niwo w ko³yskach'
-    data[3][22] = 'Coœ znowu zgrzyta w ³o¿yskach'
+    data[3][17] = 'Uciekaj, przyszÅ‚oÅ›Ä‡ jest mglista'
+    data[3][18] = 'Nadziei zÅ‚udzenie pryska'
+    data[3][19] = 'WydziobiÄ… oczy ptaszyska'
+    data[3][20] = 'PadajÄ… Å‚by na klepisko'
+    data[3][21] = 'ÅšmierÄ‡ zbiera Å¼niwo w koÅ‚yskach'
+    data[3][22] = 'CoÅ› znowu zgrzyta w Å‚oÅ¼yskach'
     data[3][23] = 'Spadasz z wielkiego urwiska'
     data[3][24] = 'Lawa spod ziemi wytryska'
-    data[3][25] = 'Woko³o grzmi albo b³yska'
-    data[3][26] = 'Fa³szywe z³oto po³yska'
-    data[3][27] = 'Najwiêcej czart tu uzyska'
-    data[3][28] = 'Owieczki Z³y tu pozyska'
-    data[3][29] = 'Owieczki spad³y z urwiska'
-    data[3][30] = 'Snuj¹ siê dymy z ogniska'
-    data[3][31] = 'To czarne lec¹ ptaszyska'
+    data[3][25] = 'WokoÅ‚o grzmi albo bÅ‚yska'
+    data[3][26] = 'FaÅ‚szywe zÅ‚oto poÅ‚yska'
+    data[3][27] = 'NajwiÄ™cej czart tu uzyska'
+    data[3][28] = 'Owieczki ZÅ‚y tu pozyska'
+    data[3][29] = 'Owieczki spadÅ‚y z urwiska'
+    data[3][30] = 'SnujÄ… siÄ™ dymy z ogniska'
+    data[3][31] = 'To czarne lecÄ… ptaszyska'
 
     number = {}
     ending = {}
@@ -257,12 +257,11 @@ end
 function generate_poem(cnt, verse_mode, repetitions_ok)
     if cnt < 1 then return "" end
 
+    math.randomseed(os.time())
 
     stanza_count = cnt
     if (stanza_count > 32) then stanza_count = 32 end
     title_id = math.random(1, #titles)
-
-    math.randomseed(os.time())
 
     for i = 0, stanza_count-1 do
         number[i] = {}
@@ -296,7 +295,7 @@ end
 
 -- run
 
-io.write('Podaj iloœæ zwrotek (1-32): ')
+io.write('Podaj iloÅ›Ä‡ zwrotek (1-32): ')
 local cnt = io.read("*n")
 io.write('\n\n')
 
